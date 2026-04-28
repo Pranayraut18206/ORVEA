@@ -1,0 +1,31 @@
+import React from 'react'
+
+const Hero_Front = () => {
+    return (
+        <div className="w-full flex justify-center mt-[9vw]">
+            <div className="relative right-[215%] w-[40vw] h-[30vw]">
+
+                {/* LEFT PACK */}
+                <img
+                    className="absolute -rotate-6 top-[2vw] left-[5%] w-[22vw] drop-shadow-2xl"
+                    src="https://www.wimpdecaf.com/cdn/shop/files/kahlo-7_07928c86-00eb-45dd-82e0-96b299b60048_1920x1920@2x.png?v=1738011035"
+                />
+
+                {/* RIGHT PACK */}
+                <img
+                    className="absolute rotate-6 top-[2vw] right-[5%] w-[22vw] drop-shadow-2xl"
+                    src="https://www.wimpdecaf.com/cdn/shop/files/01-05-Bekele_00_1920x1920@2x.png?v=1767624107"
+                />
+
+                {/* CENTER PACK */}
+                <img
+                    className="absolute left-1/2 -translate-x-1/2 w-[26vw] drop-shadow-2xl z-10"
+                    src="https://www.wimpdecaf.com/cdn/shop/files/coltrane-7_0eea5d32-e260-44bf-a8e8-578d17d30eca_2560x.png?v=1738010992"
+                />
+
+            </div>
+        </div>
+    )
+}
+
+export default Hero_Front
