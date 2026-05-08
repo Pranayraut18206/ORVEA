@@ -3,7 +3,7 @@ export default function CartHeader({ totalQty, headerRef }) {
     <div ref={headerRef} className="py-16 px-6 text-center" style={{ background: "#1c1d0e" }}>
       <h1
         className="text-6xl md:text-7xl font-black text-white leading-none mb-2"
-        style={{ fontFamily: "Georgia,'Times New Roman',serif", letterSpacing: "-0.03em" }}
+        style={{ fontFamily: "font5", letterSpacing: "-0.03em" }}
       >
         Your Cart
       </h1>

@@ -30,7 +30,7 @@ const CartItemRow = forwardRef(function CartItemRow(
         </p>
         <p
           className="text-lg font-black truncate"
-          style={{ fontFamily: "Georgia,serif", color: "#1c1d0e" }}
+          style={{ fontFamily: "font5", color: "#1c1d0e" }}
         >
           {item.name}
         </p>

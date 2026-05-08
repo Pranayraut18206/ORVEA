@@ -32,7 +32,7 @@ export default function CartUpsells({ visibleUpsells, addUpsell, money }) {
             <div className="flex-1 min-w-0">
               <p
                 className="text-sm font-black truncate"
-                style={{ fontFamily: "Georgia,serif", color: "#1c1d0e" }}
+                style={{ fontFamily: "font5", color: "#1c1d0e" }}
               >
                 {u.name}
               </p>

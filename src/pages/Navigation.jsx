@@ -11,8 +11,8 @@ const Navigation = () => {
       <div className="flex justify-between items-center px-10 py-4">
 
         {}
-        <Link to="/" className="text-2xl font-black tracking-tight">
-          wimp
+        <Link to="/">
+          <img src="src/assets/wimp-logo_200x60@2x.webp" alt="wimp" className="h-10" />
         </Link>
 
         {}
