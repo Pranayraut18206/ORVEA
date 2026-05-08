@@ -32,7 +32,7 @@ const Navigation = () => {
           </div>
 
           <p className=" hover:opacity-70 cursor-pointer hover:underline hover:font-bold">The Blog</p>
-          <a href='#why-decaf'><button className=" hover:opacity-70 cursor-pointer hover:underline hover:font-bold">Why Decaf</button></a>
+          <Link to="/whydecaf"><button className=" hover:opacity-70 cursor-pointer hover:underline hover:font-bold">Why Decaf</button></Link>
           <Link to="/faq"><p className=" hover:opacity-70 cursor-pointer hover:underline hover:font-bold">FAQs</p></Link>
         </div>
 
