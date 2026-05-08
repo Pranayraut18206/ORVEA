@@ -107,38 +107,6 @@ export default function Cart() {
     <div ref={pageRef} style={{ background: "#f0ece0", minHeight: "100vh" }}>
 
       {/* ── NAVBAR ─────────────────────────────────────────────────────── */}
-      <nav
-        className="sticky top-0 z-50 flex items-center justify-between px-6 py-4"
-        style={{ background: "#1c1d0e", borderBottom: "1px solid rgba(255,255,255,0.07)" }}
-      >
-        <Link
-          to="/"
-          className="text-white font-black text-xl tracking-tight"
-          style={{ fontFamily: "Georgia,'Times New Roman',serif", letterSpacing: "-0.02em" }}
-        >
-          Brew &amp; Chill.
-        </Link>
-
-        <div className="hidden md:flex items-center gap-8 text-sm" style={{ color: "#8a8a6a" }}>
-          <Link to="/shop"    className="hover:text-white transition-colors">Decaf Menu</Link>
-          <Link to="/why"     className="hover:text-white transition-colors">Why Decaf</Link>
-          <Link to="/blog"    className="hover:text-white transition-colors">The Blog</Link>
-          <Link to="/faq"     className="hover:text-white transition-colors">FAQs</Link>
-        </div>
-
-        <Link to="/cart" className="relative text-white text-xl hover:opacity-70 transition-opacity">
-          🛒
-          {totalQty > 0 && (
-            <span
-              className="absolute -top-2 -right-2 text-xs font-black rounded-full w-5 h-5 flex items-center justify-center"
-              style={{ background: "#f0ece0", color: "#1c1d0e" }}
-            >
-              {totalQty}
-            </span>
-          )}
-        </Link>
-      </nav>
-
       <CartHeader headerRef={headRef} totalQty={totalQty} />
 
       <div className="max-w-5xl mx-auto px-4 py-12">
@@ -194,13 +162,13 @@ export default function Cart() {
             className="font-black text-white"
             style={{ fontFamily: "Georgia,serif" }}
           >
-            Brew &amp; Chill.
+            wimp
           </p>
           <p className="text-xs italic text-center" style={{ color: "#3a3b1e" }}>
             "It's not the size of the dog in the fight…" — Mark Twain
           </p>
           <p className="text-xs" style={{ color: "#3a3b1e" }}>
-            © 2026 Brew &amp; Chill Coffee Co.
+            © 2026 wimp Coffee Co.
           </p>
         </div>
       </footer>
