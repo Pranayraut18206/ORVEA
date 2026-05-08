@@ -11,9 +11,9 @@ const Navigation = () => {
       <div className="flex justify-between items-center px-10 py-4">
 
         {}
-        <div className="text-2xl font-black tracking-tight">
+        <Link to="/" className="text-2xl font-black tracking-tight">
           wimp
-        </div>
+        </Link>
 
         {}
         <div className="flex gap-8 items-center">
