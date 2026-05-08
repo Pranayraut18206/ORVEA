@@ -27,6 +27,9 @@
   src: url('https://use.typekit.net/af/9b4894/00000000000000007735f938/30/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n4&v=3') format('woff2'),
 }
 
+html{
+ scroll-behavior: smooth;
+}
 
 .form{
   margin: 50px auto;
@@ -241,3 +244,15 @@
     padding: 0 10px;
     color: #333
   };
+
+  .feature0:hover,.feature1:hover,.feature2:hover,.feature3:hover,.feature4:hover,.feature5:hover{
+
+    border: 3px solid black;
+    box-shadow: 5px 5px 5px rgb(202, 199, 199);
+    transform: translateY(-10px);
+
+  }
+
+
+
+
