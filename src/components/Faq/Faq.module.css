@@ -1,0 +1,39 @@
+.container {
+  padding: 60px 40px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 80px;
+  margin-bottom: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.faqContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 5px 5px 5px hsl(0, 8%, 80%);
+  background-color: hsl(0, 9%, 91%);
+}
+
+.question {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.answer {
+  color: #555;
+  line-height: 1.6;
+}

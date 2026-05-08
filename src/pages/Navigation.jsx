@@ -16,8 +16,8 @@ const Navigation = () => {
         </Link>
 
         {}
-        <div className="flex gap-8 items-center">
-          <div>
+        <div className="flex gap-8 items-center ">
+          <div className='hover:opacity-70 cursor-pointer hover:underline hover:font-bold'>
             <button
               onClick={() => setOpen(!open)}
               className="hover:opacity-70 transition font-bold flex items-center gap-2"
@@ -31,9 +31,9 @@ const Navigation = () => {
             </button>
           </div>
 
-          <p className="cursor-pointer hover:opacity-70">The Blog</p>
-          <p className="cursor-pointer hover:opacity-70">Why Decaf</p>
-          <p className="cursor-pointer hover:opacity-70">FAQs</p>
+          <p className=" hover:opacity-70 cursor-pointer hover:underline hover:font-bold">The Blog</p>
+          <a href='#why-decaf'><button className=" hover:opacity-70 cursor-pointer hover:underline hover:font-bold">Why Decaf</button></a>
+          <Link to="/faq"><p className=" hover:opacity-70 cursor-pointer hover:underline hover:font-bold">FAQs</p></Link>
         </div>
 
         {}
