@@ -138,10 +138,10 @@ export default function Cart() {
           >
             wimp
           </p>
-          <p className="text-xs italic text-center" style={{ color: "#3a3b1e" }}>
+          <p className="text-xs italic text-center" style={{ color: "#f0ece0" }}>
             "It's not the size of the dog in the fight…" — Mark Twain
           </p>
-          <p className="text-xs" style={{ color: "#3a3b1e" }}>
+          <p className="text-xs" style={{ color: "#f0ece0" }}>
             © 2026 wimp Coffee Co.
           </p>
         </div>
