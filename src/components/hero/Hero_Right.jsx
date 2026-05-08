@@ -6,7 +6,7 @@ const Hero_Right = () => {
   return (
     <div className="hero-right-container">
 
-      {/* RIGHT */}
+      {}
       <div className="hero-right-box">
 
         <h1 className="hero-title">

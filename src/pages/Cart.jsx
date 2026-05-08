@@ -1,15 +1,4 @@
 
-    // src/pages/Cart.jsx
-// Drop this into your ORVEA project at: src/pages/Cart.jsx
-//
-// Stack already in your repo:
-//   react-router-dom v7  →  Link, useNavigate
-//   gsap v3              →  entrance animations
-//   tailwindcss v4       →  utility classes
-//
-// Wire it up in your router (App.jsx):
-//   import Cart from "./pages/Cart";
-//   <Route path="/cart" element={<Cart />} />
 
 import { useState, useEffect, useRef, useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
@@ -24,37 +13,22 @@ import CartPromoForm from "../components/cart/CartPromoForm";
 import CartUpsells from "../components/cart/CartUpsells";
 import CartSummary from "../components/cart/CartSummary";
 
-// ─── THEME (matches your existing site) ───────────────────────────────────
-// bg-dark    : #1c1d0e   dark olive green  → navbars, hero headers, product thumbs
-// bg-light   : #f0ece0   warm cream        → page background, cards
-// bg-surface : #252611   slightly lighter olive → sections, promo areas
-// text-muted : #8a8a6a   olive grey        → subtitles, labels
-// text-faint : #3a3b1e   very dark olive   → footer text
-// accent     : #4a7c59   muted green       → success, free-shipping indicator
-
-// ─── DEMO DATA (replace with your CartContext / global state) ──────────────
 const UPSELLS = UPSELL_ITEMS;
 
 const PROMO_CODES = { WIMP: 10, DECAF10: 10, CHILL: 15 };
 const FREE_SHIPPING_AT = 45;
 const SHIPPING_FEE = 5.99;
-
-// ══════════════════════════════════════════════════════════════════════════════
 export default function Cart() {
   const navigate = useNavigate();
   const { cartItems, addToCart, removeItem, changeQty } = useContext(CartContext);
   const items = cartItems;
   const [promoInput, setPromoInput] = useState("");
-  const [promoMsg, setPromoMsg]     = useState(null); // { ok, text }
+  const [promoMsg, setPromoMsg]     = useState(null); 
   const [discountPct, setDiscountPct] = useState(0);
-
-  // animation refs
   const pageRef    = useRef(null);
   const headRef    = useRef(null);
   const listRef    = useRef([]);
   const sideRef    = useRef(null);
-
-  // ── GSAP entrance ────────────────────────────────────────────────────────
   useEffect(() => {
     const ctx = gsap.context(() => {
       gsap.from(headRef.current, {
@@ -71,7 +45,7 @@ export default function Cart() {
     return () => ctx.revert();
   }, []);
 
-  // ── cart helpers ──────────────────────────────────────────────────────────
+  
   function addUpsell(u) {
     addToCart({ ...u, badge: u.badge || "Popular" });
   }
@@ -90,7 +64,7 @@ export default function Cart() {
     }
   }
 
-  // ── derived values ────────────────────────────────────────────────────────
+  
   const subtotal      = items.reduce((s, i) => s + i.price * i.qty, 0);
   const discount      = subtotal * (discountPct / 100);
   const afterDiscount = subtotal - discount;
@@ -102,11 +76,11 @@ export default function Cart() {
 
   const visibleUpsells = UPSELLS.filter(u => !items.find(i => i.id === u.id));
 
-  // ══════════════════════════════════════════════════════════════════════════
+  
   return (
     <div ref={pageRef} style={{ background: "#f0ece0", minHeight: "100vh" }}>
 
-      {/* ── NAVBAR ─────────────────────────────────────────────────────── */}
+      {}
       <CartHeader headerRef={headRef} totalQty={totalQty} />
 
       <div className="max-w-5xl mx-auto px-4 py-12">
@@ -152,7 +126,7 @@ export default function Cart() {
         )}
       </div>
 
-      {/* ── FOOTER STRIP (matches the rest of your site) ───────────────── */}
+      {}
       <footer
         className="mt-16 py-8 px-6"
         style={{ background: "#1c1d0e" }}

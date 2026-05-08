@@ -7,15 +7,15 @@ const Navigation = () => {
   return (
     <div className="w-full p-2 bg-[#f5f2eb] text-[#2A292B]">
 
-      {/* NAVBAR */}
+      {}
       <div className="flex justify-between items-center px-10 py-4">
 
-        {/* LOGO */}
+        {}
         <div className="text-2xl font-black tracking-tight">
           wimp
         </div>
 
-        {/* NAV LINKS */}
+        {}
         <div className="flex gap-8 items-center">
           <div>
             <button
@@ -36,7 +36,7 @@ const Navigation = () => {
           <p className="cursor-pointer hover:opacity-70">FAQs</p>
         </div>
 
-        {/* RIGHT SIDE */}
+        {}
         <div className="flex gap-5">
           <Link to="/login">
             <button className='hover:bg-gray-300 p-2 rounded-xl'>
@@ -53,7 +53,7 @@ const Navigation = () => {
 
       </div>
 
-      {/* DROPDOWN */}
+      {}
       <div
         className={`overflow-hidden transition-all duration-500 ease-in-out px-10 ${
           open ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'

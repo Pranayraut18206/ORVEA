@@ -112,7 +112,7 @@
   height: 30vw;
 }
 
-/* hero-front */
+
 .left-pack {
   position: absolute;
   top: 2vw;
@@ -140,7 +140,7 @@
   filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.4));
 }
 
-/* hero-left */
+
 .hero-left-container {
   display: flex;
   gap: 4px;
@@ -160,7 +160,7 @@
   border-radius: 24px;
 }
 
-/* hero-right */
+
 .hero-right-container {
   display: flex;
   gap: 4px;
@@ -215,7 +215,7 @@
 }
 
 
-/* Unique */
+
 .cardStyle{
     width: 200px;
     background-color: #fff;
