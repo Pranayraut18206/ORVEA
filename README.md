@@ -1,17 +1,46 @@
-# React + Vite
+# ORVEA ☕  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and immersive coffee brand website crafted to deliver a premium digital café experience. ORVEA blends elegant aesthetics, smooth interactions, and responsive design to showcase coffee culture in a clean and visually engaging way.
 
-Currently, two official plugins are available:
+Built with a focus on branding, storytelling, and user experience, the website creates the feeling of stepping into a luxury coffee space online.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Elegant and modern coffee-inspired UI  
+- Fully responsive design across devices  
+- Smooth animations and interactive sections  
+- Clean product and brand showcase layouts  
+- Immersive landing page experience  
+- Optimized performance and structured components  
+- Visually rich branding-focused design  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# ORVEA
+## 🛠️ Tech Stack
+
+- Frontend: React  
+- Styling: Tailwind CSS  
+- Build Tool: Vite  
+- Animations: CSS animations  
+
+---
+
+## 📸 Website Sections
+
+- Hero Landing Section  
+- Featured Coffee Collections  
+- Brand Story / About  
+- Product Highlights  
+- Testimonials / Customer Experience  
+- Contact / Social Presence
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/YugRastogi/ORVEA.git
