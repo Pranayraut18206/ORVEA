@@ -21,6 +21,7 @@ const App = () => {
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/faq" element={<Faq />}></Route>
       </Routes>
+
     </CartProvider>
   )
 }
