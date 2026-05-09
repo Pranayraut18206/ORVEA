@@ -25,15 +25,18 @@ export default function Login() {
     const hasUpper = password !== password.toLowerCase();
     const hasSpecial = /[^a-zA-Z0-9]/.test(password);
 
-    if (password.length < 8 || !hasLower || !hasUpper || !hasSpecial) {
-      setError("Password must be 8+ chars with uppercase, lowercase & special character");
-      return;
-    }
+if (password === "Wimpd@123" && email === "wimpdecaf@gmail.com") {
+  setCorrect("Login successful!");
+  setError("");
+} else {
+  setError("Wrong email or password");
+  setCorrect("");
+  return;
+}
 
     setError("");
     localStorage.setItem("user", JSON.stringify(user));
     console.log("Saved");
-    setCorrect("Login successful!")
 
     setUser({ email: "", password: "" });
   }
@@ -91,6 +94,11 @@ export default function Login() {
         <div className="form-divider">or</div>
 
         <button className="signup">Sign up</button>
+        <label className="checkbox-container"> 
+          <input type="checkbox" name="subscribe" value="newsletter" defaultChecked />
+           <span style={{ fontSize: "12px", color: "grey", marginLeft: "8px" }}> Email me with news and offers </span> 
+           </label> 
+           <div style={{fontSize:"12px",margin:"15px 10px 10px 35px",color:"rgb(156, 154, 154)"}}>By continuing, you agree to our <a style={{textDecoration:"underline",fontWeight:"bold"}}>Terms of Services</a></div>
       </form>
     </div>
   );
