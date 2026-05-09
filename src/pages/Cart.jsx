@@ -134,14 +134,14 @@ export default function Cart() {
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
           <p
             className="font-black text-white"
-            style={{ fontFamily: "Georgia,serif" }}
+            style={{ fontFamily: "font5" }}
           >
             wimp
           </p>
-          <p className="text-xs italic text-center" style={{ color: "#3a3b1e" }}>
+          <p className="text-xs italic text-center" style={{ color: "#f0ece0" }}>
             "It's not the size of the dog in the fight…" — Mark Twain
           </p>
-          <p className="text-xs" style={{ color: "#3a3b1e" }}>
+          <p className="text-xs" style={{ color: "#f0ece0" }}>
             © 2026 wimp Coffee Co.
           </p>
         </div>

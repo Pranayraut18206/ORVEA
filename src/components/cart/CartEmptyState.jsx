@@ -6,7 +6,7 @@ export default function CartEmptyState() {
       <p className="text-6xl mb-6">☕</p>
       <h2
         className="text-4xl font-black mb-3"
-        style={{ fontFamily: "Georgia,serif", color: "#1c1d0e" }}
+        style={{ fontFamily: "font5", color: "#1c1d0e" }}
       >
         Nothing here yet.
       </h2>

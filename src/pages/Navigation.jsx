@@ -11,8 +11,8 @@ const Navigation = () => {
       <div className="flex justify-between items-center px-10 py-4">
 
         {}
-        <Link to="/" className="text-2xl font-black tracking-tight">
-          wimp
+        <Link to="/">
+          <img src="src/assets/wimp-logo_200x60@2x.webp" alt="wimp" className="h-10" />
         </Link>
 
         {}
@@ -32,7 +32,7 @@ const Navigation = () => {
           </div>
 
           <p className=" hover:opacity-70 cursor-pointer hover:underline hover:font-bold">The Blog</p>
-          <a href='#why-decaf'><button className=" hover:opacity-70 cursor-pointer hover:underline hover:font-bold">Why Decaf</button></a>
+          <Link to="/whydecaf"><button className=" hover:opacity-70 cursor-pointer hover:underline hover:font-bold">Why Decaf</button></Link>
           <Link to="/faq"><p className=" hover:opacity-70 cursor-pointer hover:underline hover:font-bold">FAQs</p></Link>
         </div>
 

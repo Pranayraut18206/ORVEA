@@ -1,8 +1,15 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import Orange_Button from "../common/Orange_Button";
 
 
 const Hero_Right = () => {
+  const navigate = useNavigate();
+
+  const handleWelcomePackClick = () => {
+    navigate('/shop');
+  };
+
   return (
     <div className="hero-right-container">
 
@@ -30,7 +37,7 @@ const Hero_Right = () => {
         </div>
 
         <div className="hero-button-wrapper">
-          <Orange_Button text="TRY A WELCOME PACK" />
+          <Orange_Button text="TRY A WELCOME PACK" onClick={handleWelcomePackClick} />
         </div>
 
       </div>

@@ -5,6 +5,7 @@ import Login from './components/Nav-button/Login'
 import Cart from './pages/Cart'
 import Shop from './pages/Shop'
 import Checkout from './pages/Checkout'
+import WhyDecaf from './pages/WhyDecaf'
 import { CartProvider } from './context/CartContext'
 import Faq from "./components/Faq/Faq";
 
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/cart" element={<Cart />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/checkout" element={<Checkout />} />
+        <Route path="/whydecaf" element={<WhyDecaf />} />
         <Route path="/faq" element={<Faq />}></Route>
       </Routes>
 

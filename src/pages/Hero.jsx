@@ -3,7 +3,6 @@ import Hero_Left from '../components/hero/Hero_Left'
 import Hero_Right from '../components/hero/Hero_Right'
 import Hero_Front from '../components/hero/Hero_Front'
 import Unique from '../components/hero/Unique'
-import Why from '../components/hero/Why'
 
 const Hero = () => {
     return (
@@ -14,7 +13,6 @@ const Hero = () => {
                 <Hero_Front/>
                 </div>
             <Unique/>
-            <Why/>
         </div>
 
 

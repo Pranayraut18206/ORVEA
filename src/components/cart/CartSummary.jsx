@@ -15,7 +15,7 @@ export default function CartSummary({
     <div className="w-full lg:w-80 shrink-0 lg:sticky" style={{ top: "88px" }}>
       <div className="rounded-2xl overflow-hidden" style={{ background: "#fff", border: "1px solid #e0dcd0" }}>
         <div className="px-6 py-5" style={{ borderBottom: "1px solid #e0dcd0" }}>
-          <p className="font-black text-base" style={{ fontFamily: "Georgia,serif", color: "#1c1d0e" }}>
+          <p className="font-black text-base" style={{ fontFamily: "font5", color: "#1c1d0e" }}>
             Order Summary
           </p>
         </div>
@@ -62,7 +62,7 @@ export default function CartSummary({
             style={{
               borderTop: "1px solid #e0dcd0",
               color: "#1c1d0e",
-              fontFamily: "Georgia,serif",
+              fontFamily: "font5",
             }}
           >
             <span>Total</span>

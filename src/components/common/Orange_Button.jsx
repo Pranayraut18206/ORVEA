@@ -25,6 +25,7 @@ const Orange_Button = (props) => {
                 <button
                     ref={btnRef}
                     onMouseEnter={handleEnter}
+                    onClick={props.onClick}
                     className='
                         w-[15vw] 
                         bg-orange-500 
